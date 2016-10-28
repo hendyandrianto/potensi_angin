@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Folder Package -->
+<com.potensiangin.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#2679D7" >
+    <Button
+        android:id="@+id/btn_manual"
+        style="@style/DashboardButton"
+        android:textColor="#fff"
+        android:onClick="help"
+        android:drawableTop="@drawable/btn_berita"
+        android:text="Cara Penggunaan" />
+    <Button
+        android:id="@+id/btn_tempat"
+        style="@style/DashboardButton"
+        android:textColor="#fff"
+        android:onClick="tempat"
+        android:drawableTop="@drawable/btn_tempat"
+        android:text="List Tempat" />
+    <Button
+        android:id="@+id/btn_acara"
+        style="@style/DashboardButton"
+        android:textColor="#fff"
+        android:onClick="history"
+        android:drawableTop="@drawable/btn_acara"
+        android:text="Data History" />
+ 
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/DashboardButton"
+        android:textColor="#fff"
+        android:onClick="about"
+        android:drawableTop="@drawable/btn_foto"
+        android:text="About" />
+ 
+</com.potensiangin.DashboardLayout>
